@@ -1,0 +1,139 @@
+body > * {
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  display: flex;
+  height: calc(100vh - 80px);
+  flex-wrap: nowrap;
+}
+.content--text {
+  width: 45%;
+}
+.content--image {
+  width: 55%;
+}
+.content--text {
+  margin: 30px;
+  position: relative;
+}
+.text--title {
+  display: flex;
+}
+.text--title > .title--icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+.text--title > .title--quote {
+  font-weight: 500;
+  line-height: 32px;
+}
+.content--quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.quote--icon {
+  width: 60px;
+  height: 60px;
+}
+.quote--text {
+  width: 100%;
+  font-size: 32px;
+  font-family: "Crimson Text", serif;
+}
+.quote--author {
+  margin-top: 12px;
+  display: flex;
+}
+.quote--author > .author--image {
+  margin-right: 12px;
+}
+.quote--author > .author--image > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.quote--author > .author--name {
+  line-height: 40px;
+  font-weight: 500;
+}
+.content--image {
+  background: url("https://source.unsplash.com/random") no-repeat;
+  background-size: cover;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #68466b;
+}
+.footer > div {
+  margin: 20px 40px;
+  color: #ffffff;
+}
+.footer > .footer--btn {
+  margin: 12px;
+  color: #68466b;
+  background-color: #ffffff;
+  padding: 8px 24px;
+  line-height: 34px;
+  border-radius: 5px;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer > .footer--btn:hover {
+  background-color: #68466b;
+  color: #ffffff;
+  transition: 0.15s;
+}
+.footer--social {
+  display: flex;
+  justify-content: center;
+}
+.footer--social > div {
+  margin: 0px 10px;
+}
+.footer--social > .social--icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  position: relative;
+}
+.footer--social > .social--icon > svg {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social--text,
+.footer--share {
+  font-size: 20px;
+  line-height: 40px;
+}
+.footer--share {
+  display: flex;
+}
+.share--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0px 12px;
+  background: url("../img/border.png") no-repeat;
+  background-size: cover;
+}
+.share--icon > div {
+  background-color: white;
+  border-radius: 50%;
+  transform: scale(1.2) translateY(0.5px);
+}

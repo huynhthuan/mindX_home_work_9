@@ -1,0 +1,39 @@
+.content {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.content--clock {
+  width: 50%;
+  border-radius: 10px;
+  background-color: black;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.content--time {
+  width: 25%;
+}
+.content--time__big {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.content--time__mini {
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+}
